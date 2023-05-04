@@ -112,3 +112,9 @@ audio {
   mix-blend-mode: normal;
   font-size: 10px;
 }
+
+img {
+  border-radius: 50px;
+  max-width: 250px;
+  max-height: 250px;
+}

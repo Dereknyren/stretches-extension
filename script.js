@@ -24,8 +24,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   }
   const stretchTypes = ['lower_back', 'middle_back', 'neck', 'abdominals', 'forearms', 'lats'];
+  const gifFolder = ['/assets/catwarm-up.gif', '/assets/cat-yoga.gif', '/assets/stretch-kitty.gif', '/assets/cat-work-out.gif', '/assets/cat-exercise.gif', '/assets/cat-legs.gif'];
+
   stretchTypes.forEach((el) => getExercise(el));
+
   document.getElementById('buttons').addEventListener('click', (event) => {
+    const randomGifIndex = (Math.floor(Math.random() * 6));
+    const catGif = document.getElementById('cat-workout');
+    catGif.src = gifFolder[randomGifIndex];
     const visible = document.querySelector('.show');
     if (visible) {
       visible.style.display = 'none';
