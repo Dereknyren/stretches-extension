@@ -1,0 +1,17 @@
+{
+  "name": "Morning Stretches",
+  "version": "1.0.0",
+  "description": "Exercise and stretch generator",
+  "manifest_version": 3,
+  "author": "Cassidy Komp & Derek Nyren",
+  "action":{
+      "default_popup": "index.html",
+      "default_title": "Recommended Routine",
+      "default-icon": "assets/exercise-128.png"
+  },
+  "icons": {
+    "16": "assets/yoga-16.png",
+    "32": "assets/yoga-32.png",
+    "128": "assets/yoga-128.png"
+  }
+}

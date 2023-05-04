@@ -1,0 +1,114 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3B3131;
+  min-width: 720px
+
+}
+
+h1 {
+  font-size: 40px;
+  margin: 15px 5px;
+}
+
+h3 {
+  opacity: 80%;
+  margin: 10px 5px;
+  
+}
+.container {
+  margin: 0 auto;
+  border: 0.5px solid #ffff94;
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 30px;
+  height: fit-content;
+  width: 90vw;
+  margin-top: 3vh;
+  
+  background: linear-gradient(-45deg, #fcd50f, #f7a539, #ee8352, #f09819);
+	background-size: 300% 300%;
+	animation: gradient 8s ease infinite;
+  box-shadow: 0px 1px 12px 0px rgba(219, 109, 24, 0.9);
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+  background-color: transparent;
+}
+
+
+li {
+  list-style: none;
+  margin: 8px 0px;
+  /* border: 2px solid black; */
+  padding: 7px 20px 7px 20px;
+  text-align: left;
+  border-radius: 10px;
+  font-size: 12px;
+  /* background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%); */
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  /* background-color: white; */
+  
+}
+
+
+#buttons {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+button {
+  color: black;
+  mix-blend-mode: screen;
+  background-color: white;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 15px;
+  border: 2px solid #F3EBE6;
+  transition: all 0.4s ease;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+  mix-blend-mode: screen;
+  border: 2px solid white;
+}
+
+.stretchesContainer {
+  background-color: rgba(243, 235, 230, 0.5);
+  /* background-color: #93867E; */
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 15px 0;
+  box-shadow: 0px 1px 12px 0px rgba(219, 109, 24, 0.4);
+  /* border: 1px solid rgba(243, 235, 230, 0.4); */
+  display: none;
+}
+audio {
+  height: 20px;
+  width: 175px;
+  opacity: 70%;
+}
+.demoButton {
+  display: block;
+  color: #3B3131;
+  background-color: aqua;
+  mix-blend-mode: normal;
+  font-size: 10px;
+}
